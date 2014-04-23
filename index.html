@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+ 	<title>Blog</title>
+ </head>
+ <body>
+ <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script><script src="http://cacpg.herokuapp.com/js/demos/snowfall.min.js"></script>
+<script>
+$(document).ready(function() {
+    snowFall.snow($("section"), {
+        minSize: 1,
+        maxSize: 10,
+        round: true,
+        minSpeed: 1,
+        maxSpeed: 5,
+        flakeCount: 200
+    });
+});
+</script>
+<section>
+
+  <form action="" method="get">
+ Name<input type="text" name="Name" />
+<br>
+ Title<input type="text" name="Blog Title" />
+ <br>
+ 
+ <textarea rows="10" cols="50" name="blog">
+start writing your blog here...
+</textarea>
+ <br>
+ <input type="submit" value="submit" />
+ </form></section>
+ <img src="blogging.jpg"/>
+ </body>
+ </html>

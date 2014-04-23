@@ -1,0 +1,19 @@
+mkdir ~/work/blog/
+gedit blog/index.html
+
+gedit etc/apache2/sites-available
+// add new virtual host w
+//doc root ~/work/blog
+
+create mysql database blog
+create table blog
+title
+body
+
+html form for add blog entry
+title:
+entry:
+
+save to db
+
+display blog
