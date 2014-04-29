@@ -1,0 +1,36 @@
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+
+
+body {
+	background-color:darkslategray;
+	margin: 2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+
+
+}
+section {
+    margin: auto;
+    background-size:1700px;
+    width: 1250px;
+    height: 1000px;
+    color: white;
+    font-family: 'Open Sans';
+    position: absolute;
+    text-align: left;
+    
+}
+#box {
+    
+    border: 5px dotted red;
+    margin: 10px;
+    padding: 10px;
+    background: gray;
+}
+
